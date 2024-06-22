@@ -8,3 +8,4 @@ then
 fi
 
 ld -m elf_i386 "$1.o" -o execute/$1
+execute/$1
